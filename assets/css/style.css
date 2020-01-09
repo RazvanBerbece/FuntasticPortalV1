@@ -1,0 +1,312 @@
+body,html {
+    height: 100%
+}
+
+body {
+    overflow: auto!important;
+    color: #fff;
+    background: #614385;
+    background: -webkit-linear-gradient(to left,#516395,#614385);
+    background: linear-gradient(to left,#516395,#614385)
+}
+
+.indigo {
+    background-color: #5d3f656b!important
+}
+
+.wrapper-content {
+    width: 100%;
+    height: 130vh;
+    position: relative
+}
+
+.pageParagraph,.pageTitle {
+    margin-left: 7%;
+    margin-top: 10%
+}
+
+.pageTitle {
+    font-weight: 550;
+    font-size: 4vh
+}
+
+.pageParagraph {
+    font-size: 2.3vh
+}
+
+.Slideshow {
+    margin-top: 0
+}
+
+.blue {
+    background-color: #5d3f656b!important
+}
+
+.TestMail {
+    border: 0;
+    padding: 0;
+    outline: 0;
+    cursor: pointer;
+    width: 20%;
+    height: 20%
+}
+
+.WS_Categories {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 5%
+}
+
+.SlideSheet {
+    width: 65%;
+    position: absolute;
+    left: 18%;
+    top: 17%;
+    border-radius: 13px
+}
+
+.Cat {
+    cursor: pointer
+}
+
+.Cat:active,.Cat:hover {
+    color: red;
+    text-decoration: underline
+}
+
+#lockscreen {
+    width: 100%;
+    height: 100%
+}
+
+.lockContent {
+    margin-top: 25%;
+    text-align: center;
+    display: flex;
+    justify-content: center
+}
+
+.SlideSheet {
+    cursor: pointer
+}
+
+.StaffList {
+    text-align: center
+}
+
+.StaffPhoto {
+    margin-top: 1%;
+    margin-left: 0;
+    margin-bottom: 10%;
+    width: 100%;
+    height: 450px
+}
+
+body.printingContent>* {
+    display: none!important
+}
+
+.printContainer {
+    display: block!important;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.ContestTypes {
+    margin-top: 25%
+}
+
+.ContestT {
+    cursor: pointer
+}
+
+.ContestT:hover,.footer-link:hover,.footer-social:hover {
+    color: red;
+    text-decoration: underline
+}
+
+.UtilityList {
+    list-style-type: none;
+    font-size: 160%;
+    margin-top: 15%
+}
+
+.pageParagraphHome {
+    font-size: 95%
+}
+
+.ProgList {
+    font-size: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+}
+
+.FBt {
+    text-align: center
+}
+
+.FBr {
+    justify-content: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0
+}
+
+.otherInput {
+    height: 15vh
+}
+
+.lockHintCont,.lockWelcomeCont {
+    width: 100%;
+    text-align: center
+}
+
+.L {
+	margin-top: 0%; 
+	display: block; 
+	padding-top: 3.6%;
+}
+
+@media (max-width:770px) and (orientation:landscape) {
+    .Slideshow {
+        width: 100%;
+        margin-top: 0
+    }
+
+    .frontIMG {
+        position: relative
+    }
+
+    .jumboBtn {
+        height: 15%!important;
+        top: 40%!important
+    }
+
+    .pageTitle {
+        font-size: 30px
+    }
+
+    .pageParagraph {
+        font-size: 15px
+    }
+
+    .WS_Categories {
+        margin-top: 3%
+    }
+
+    .L {
+        font-size: 3px!important
+    }
+
+    .StaffPhoto {
+        margin-left: 0!important;
+        margin-top: 8%!important;
+        width: 50%;
+        height: 250px
+    }
+
+    .StaffName {
+        margin-top: -50%!important;
+        font-size: 20px;
+        margin-left: 53%!important
+    }
+
+    .StaffText {
+        font-size: 13px
+    }
+
+    .StaffP {
+        font-size: 12px;
+        margin-left: 53%
+    }
+
+    .StaffList1 {
+        float: left!important
+    }
+
+    .StaffList2 {
+        float: right!important
+    }
+
+    .ContestTypes {
+        margin-top: 5%!important
+    }
+
+    .ContestT {
+        font-size: 25px
+    }
+
+    .otherInput {
+        height: 100px!important;
+        margin-left: 0!important;
+        width: 100%!important
+    }
+
+    .DanceForm,.KaraokeForm,.MMForm {
+        margin-top: 0!important
+    }
+
+    .C1 {
+        height: 125vh!important
+    }
+
+    .C2 {
+        height: 120vh!important
+    }
+
+    .contentHome_2 {
+        font-size: 2vw !important;
+    }
+
+    .StaffList{
+        margin-top: 0 !important;
+    }
+
+    .L {
+        padding-top: 0 !important;
+    }
+}
+
+@media (max-width:770px) and (orientation:portrait) {
+    .jumboBtn {
+        top: 35%!important;
+        width: 50%!important;
+        left: 23.5%!important;
+        height: 20%!important
+    }
+
+    .frontIMG {
+        position: relative
+    }
+
+    .StaffPhoto {
+        margin-left: 3%!important;
+        width: 92%!important;
+        height: 300px
+    }
+
+    .ContestTypes {
+        margin-top: 55%!important
+    }
+
+    .ContestT {
+        font-size: 30px
+    }
+
+    .otherInput {
+        margin-left: 0!important
+    }
+
+    .DanceForm,.KaraokeForm,.MMForm {
+        margin-top: 0!important
+    }
+
+    .contentHome_2 {
+        font-size: 4vw;
+    }
+}
